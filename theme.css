@@ -1,0 +1,185 @@
+body {
+	background-color:#FFFFCC;
+	color: #000000;
+	margin: 0;
+}
+
+#banner{
+  width: 100%;
+
+}
+
+#b1 {
+width: 100%;
+
+}
+
+#p1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu{
+width:100%;
+background-color: #FFC04D;
+height:42px;
+}
+
+#menu ul {
+margin: 0;
+padding: 0px;
+}
+
+#menu li {
+background-color: #FFC04D;
+list-style-type:none;
+float: left;
+padding:10px;
+}
+#menu li:hover {
+background-color: #FFFFCC;
+}
+
+#menu li a {
+text-decoration: none;
+color: #000000;
+font-size:14pt;
+}
+
+#Kappa{
+width:100%;
+background-color: #FFC04D;
+}
+
+#Kappa ul {
+margin: 0;
+}
+
+#Kappa li {
+background-color: #FFC04D;
+list-style-type:none;
+float: right;
+padding:8px;
+}
+
+#Kappa li a{
+text-decoration: none;
+color: #000000;
+font-size:14pt;
+}
+
+#main {
+text-decoration: none;
+text-align: center;
+font-size:14pt;
+padding: 20px;
+}
+
+#footer{
+bottom:0px;
+padding: 10px;
+background-color:#FFC04D;
+width: 100%;
+text-align: center;
+}
+
+#footer a {
+padding-right:5px;
+float:left;
+text-decoration:none;
+}
+
+
+
+#menu li form{
+height:6px;
+align: "right";
+}
+
+#Kappa li form{
+height:0px;
+padding: 0px;
+}
+
+#login_section {
+display:block;
+margin-left: auto;
+margin-right: auto;
+background-color: #FFC04D;
+padding:35px;
+width:30%;
+margin:0;
+
+}
+
+#edit {
+display:block;
+margin-left: auto;
+margin-right: auto;
+border-style:solid;
+border-width:5px;
+border-color:#FFC04D;
+padding:35px;
+width:15%;
+margin=0;
+
+}
+
+
+
+#xristes{
+display:block;
+margin-left: auto;
+margin-right: auto;
+border-style:solid;
+border-width:5px;
+border-color:#FFC04D;
+padding:120px;
+width:15%;
+margin=0;
+
+
+}
+
+
+
+
+legend {
+font-size:15pt;
+font-family:"verdana";
+}
+
+
+label {
+float:left;
+text-align: left;
+width:100px;
+}
+
+
+
+input {
+float:center;
+
+}
+
+a {
+text-decoration:none;
+}
+
+@media screen and (max-width: 600px) {
+#menu{
+width:100%;
+background-color: #aaaaaa;
+height:auto;
+}
+
+#menu li form{
+height:4px;}
+
+
+#menu li {
+float: none;
+}
+}
